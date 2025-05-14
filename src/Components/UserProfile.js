@@ -40,12 +40,12 @@ const UserProfile = ({ user, updateUser }) => {
       </div>
 
       <div className="form-group">
-        <label htmlFor="name">Rol:</label>
+        <label htmlFor="role">Rol:</label>
         <select id="role" name="role" value={user.role} onChange={handleChange}>
           <option selected>Open this select menu</option>
-          <option value="Estudiante"></option>
-          <option value="Profesor"></option>
-          <option value="Administrador"></option>
+          <option value="Estudiante">Estudiante</option>
+          <option value="Profesor">Profesor</option>
+          <option value="Administrador">Administrador</option>
         </select>
       </div>
 
