@@ -49,7 +49,7 @@ const UserProfile = ({ user, updateUser }) => {
         </select>
       </div>
 
-      <div className="user-sumary">
+      <div className="user-summary">
         <h3>Resumen:</h3>
         <p>
           <strong>Nombre:</strong> {user.name}
